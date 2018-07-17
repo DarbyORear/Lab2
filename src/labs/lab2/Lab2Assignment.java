@@ -27,7 +27,7 @@ public class Lab2Assignment {
 		System.out.println();
 		System.out.println("Would you like to continue? (y/n): ");
 		String userContinueAnswer = scnr.next();
-		//convert from string to character
+	
 		char userContinue = userContinueAnswer.charAt(0);
 	
 			while(userContinue == 'y') {
